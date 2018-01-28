@@ -1,0 +1,7 @@
+PUSH
+====
+echo "message" | gpg -ear recipient > file.asc
+git add .
+git commit -m done
+git push origin master
+
